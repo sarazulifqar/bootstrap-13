@@ -1,0 +1,66 @@
+.circle{
+	background: #c8f1c8;
+    color: green;
+    padding: 1PX 21px;
+    border-radius: 50px;
+}
+.circle1{
+	background: #e8c37f;
+    color: orange;
+    padding: 1PX 21px;
+    border-radius: 50px;
+}
+.circle22{
+	border: 2px solid green;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: green;
+    position: absolute;
+    top: 7px;
+   
+    left: 6px;
+
+}
+.circle23{
+	border: 2px solid orange;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background-color:orange;
+    position: absolute;
+    top: 7px;
+   
+    left: 6px;
+}
+.circle-33{
+	position: relative;
+}
+/*.x{
+	position: absolute;
+	width: 16px;
+	height: 4px;
+	top: 20px;
+	left: 40px;
+	transform: translate(-50%,-50%);
+	background: red;
+}*/
+.x::before , .x::after{
+	content: '';
+	position: absolute;
+	width: 16px;
+	height: 4px;
+	background: red;
+
+}
+.x::before {
+	transform: rotate(-45deg);
+
+}
+.x::after{
+	transform: rotate(45deg);
+}
+.x:hover{
+	cursor: pointer;
+      border: 2px solid black;
+}
