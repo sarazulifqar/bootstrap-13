@@ -1,12 +1,36 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+tbody{
+	font-size: 13px;
+}
+.email{
+	
+	color: gray;
+	font-size: 13px;
+	font-weight: 500px;
+}
+
+
+
+
+
+
+
+.heading{
+	font-size: 28px;
+}
 .circle{
-	background: #c8f1c8;
-    color: green;
+	background: #d9f0d9;
+    color:#62a162;
     padding: 1PX 21px;
     border-radius: 50px;
 }
 .circle1{
-	background: #e8c37f;
-    color: orange;
+	background:#e8c37f70;
+    color:#e0520478;
     padding: 1PX 21px;
     border-radius: 50px;
 }
@@ -36,21 +60,30 @@
 .circle-33{
 	position: relative;
 }
-/*.x{
+.x{
 	position: absolute;
-	width: 16px;
+	/*width: 16px;
 	height: 4px;
 	top: 20px;
 	left: 40px;
-	transform: translate(-50%,-50%);
-	background: red;
-}*/
+	transform: translate(-50%,-50%);*/
+/*	background: red;*/
+	border: none;
+    color: transparent;
+	padding: 0px;
+    border: none;
+    background-color: transparent;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+}
 .x::before , .x::after{
 	content: '';
 	position: absolute;
-	width: 16px;
-	height: 4px;
+	width: 10px;
+	height: 3px;
 	background: red;
+	border: none;
 
 }
 .x::before {
@@ -59,8 +92,21 @@
 }
 .x::after{
 	transform: rotate(45deg);
+
 }
 .x:hover{
 	cursor: pointer;
       border: 2px solid black;
+}
+.color{
+	background-color: #fafafa;
+    border-bottom: 8px solid white;
+
+}
+/*.panding{
+	    padding-right: 72px;
+	    padding-top: 48px;*/
+}
+.checkbox-primary{
+	    color: #40bfc1;
 }
